@@ -82,6 +82,7 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 # some more ls aliases
+alias sudo='sudo '
 alias ll='ls -alhF'
 alias la='ls -A'
 alias l='ls -CF'

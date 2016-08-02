@@ -1,3 +1,3 @@
 # Description
 
-Common config files for linux system
+Common config files for *nix system

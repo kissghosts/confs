@@ -1,5 +1,6 @@
 syntax on
 set nu
+set relativenumber
 set hls
 set autoindent
 " set smartindent

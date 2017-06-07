@@ -57,8 +57,8 @@ plugins=(git mvn brew zsh-autosuggestions zsh-syntax-highlighting)
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/apache-maven-3.3.9/bin:$PATH"
-export PATH="/usr/local/Cellar/mpv/0.18.0_2/bin:$PATH"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
+export PATH="/usr/local/Cellar:$PATH"
 export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -103,6 +103,12 @@ alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
 # image ls and cat
 alias imgls='/usr/local/bin/imgls'
 alias imgcat='/usr/local/bin/imgcat'
+
+# dev
+alias jdk8='export JAVA_HOME=`/usr/libexec/java_home -v 1.8`'
+alias jdk7='export JAVA_HOME=`/usr/libexec/java_home -v 1.7`'
+
+# app installed from brew
 
 # Set colors for man pages
 man() {

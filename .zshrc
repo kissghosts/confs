@@ -93,9 +93,8 @@ alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 
 # some more ls aliases
-alias sudo='sudo '
 alias ll='ls -alF'
-alias vim='/usr/local/Cellar/vim/7.4.1525/bin/vim'
+#alias vim='/usr/local/Cellar/vim/7.4.1525/bin/vim'
 
 # Recursively delate '.DS_Store' files
 alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
